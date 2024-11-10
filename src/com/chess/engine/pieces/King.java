@@ -4,12 +4,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import com.chess.engine.Alliance;
-import com.chess.engine.board.Board;
-import com.chess.engine.board.BoardUtils;
-import com.chess.engine.board.Move;
-import com.chess.engine.board.Move.MajorAttackMove;
-import com.chess.engine.board.Move.MajorMove;
-import com.chess.engine.board.Tile;
 import com.google.common.collect.ImmutableList; //<- This is when we need Guava. Right click your project folder
 //then click on build path. Next, click on configure build path. Then, go to java build path, and highlight on 
 //module path, 

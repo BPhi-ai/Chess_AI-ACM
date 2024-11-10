@@ -6,8 +6,6 @@ package com.chess.engine.pieces;
 import java.util.Collection;
 
 import com.chess.engine.Alliance;
-import com.chess.engine.board.Board;
-import com.chess.engine.board.Move;
 
 //This is the piece class. It's an abstract class, which means it can only be used if the Piece class
 //is the parent of the chess pieces due to this class being general.  Below are abstract methods, which they
