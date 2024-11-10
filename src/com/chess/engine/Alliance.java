@@ -1,5 +1,10 @@
 package com.chess.engine; //<- The package means where it's going to be in when creating a class.
 
+import com.chess.engine.board.BoardUtils;
+import com.chess.engine.player.BlackPlayer;
+import com.chess.engine.player.Player;
+import com.chess.engine.player.WhitePlayer;
+
 //An enum that's based on what team the player is on. Can either be White or Black.
 public enum Alliance {
 

@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import com.chess.engine.Alliance;
+import com.chess.engine.board.Board;
+import com.chess.engine.board.BoardUtils;
+import com.chess.engine.board.Move;
+import com.chess.engine.board.Move.MajorAttackMove;
+import com.chess.engine.board.Move.MajorMove;
+import com.chess.engine.board.Tile;
+import com.google.common.collect.ImmutableList;
 
 public class Knight extends Piece{
 
